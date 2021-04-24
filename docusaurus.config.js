@@ -1,28 +1,28 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'PteroBilling',
+  tagline: 'An open-source Laravel 8 online store, client area, and billing software specially made for Pterodactyl panel',
+  url: 'https://project.alaister.net',
   baseUrl: '/',
-  favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  favicon: 'img/favicon.webp',
+  organizationName: 'pterobilling',
+  projectName: 'docs',
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: 'PteroBilling',
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        alt: 'PteroBilling Icon',
+        src: 'img/logo.webp',
       },
       links: [
         {
-          to: 'docs/doc1',
+          to: 'docs/intro',
           activeBasePath: 'docs',
-          label: 'Docs',
+          label: 'Documentation',
           position: 'left',
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
+        //{to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/pterobilling/pterobilling',
           label: 'GitHub',
           position: 'right',
         },
@@ -32,15 +32,15 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Docs',
+          title: 'Documentation',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/doc1',
+              label: 'Getting Started',
+              to: 'docs/start',
             },
             {
-              label: 'Second Doc',
-              to: 'docs/doc2',
+              label: 'Administration',
+              to: 'docs/admin',
             },
           ],
         },
@@ -48,16 +48,12 @@ module.exports = {
           title: 'Community',
           items: [
             {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
               label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              href: 'https://discord.gg/GQ5EWQz6MQ',
             },
             {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              label: 'Github Discussions',
+              href: 'https://github.com/pterobilling/pterobilling/discussions',
             },
           ],
         },
@@ -65,17 +61,21 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
+              label: 'Demo',
+              href: '#',
             },
             {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/pterobilling/pterobilling',
+            },
+            {
+              label: 'Packagist',
+              href: 'https://packagist.org/packages/pterobilling/pterobilling',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Alaister Leung. All rights reserved.`,
     },
   },
   presets: [
@@ -86,14 +86,14 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+            'https://github.com/pterobilling/docs/edit/master/docs/',
         },
-        blog: {
+        /*blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
-        },
+            'https://github.com/pterobilling/docs/edit/master/blog/',
+        },*/
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
