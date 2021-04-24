@@ -4,17 +4,17 @@ module.exports = {
     {
       'Getting Started': [
         'start/intro',
-        'start/require',
-        'start/install',
-        'start/config',
-        'start/mysql',
-        'start/web-server',
-        'start/pterodactyl',
+        //'start/require',
+        //'start/install',
+        //'start/config',
+        //'start/mysql',
+        //'start/web-server',
+        //'start/pterodactyl',
       ]
     },
     {
       'Administration': [
-        'admin/start',
+        'admin/intro',
       ]
     },
     {
@@ -24,7 +24,7 @@ module.exports = {
     },
     {
       'Miscellaneous': [
-        'misc/contributing',
+        'misc/contribute',
       ]
     }
   ],
