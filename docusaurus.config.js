@@ -4,14 +4,14 @@ module.exports = {
   url: 'https://project.alaister.net',
   baseUrl: '/',
   favicon: 'img/favicon.webp',
-  organizationName: 'pterobilling',
+  organizationName: 'AlaisterLeung',
   projectName: 'docs',
   themeConfig: {
     navbar: {
       title: 'PteroBilling',
       logo: {
         alt: 'PteroBilling Icon',
-        src: 'img/logo.webp',
+        src: 'img/icon.webp',
       },
       links: [
         {
@@ -20,10 +20,20 @@ module.exports = {
           label: 'Documentation',
           position: 'left',
         },
+        {
+          href: '#',
+          label: 'Demo',
+          position: 'left',
+        },
         //{to: 'blog', label: 'Blog', position: 'left'},
         {
           href: 'https://github.com/pterobilling/pterobilling',
           label: 'GitHub',
+          position: 'right',
+        },
+        {
+          href: 'https://discord.gg/GQ5EWQz6MQ',
+          label: 'Discord',
           position: 'right',
         },
       ],
@@ -68,10 +78,6 @@ module.exports = {
               label: 'GitHub',
               href: 'https://github.com/pterobilling/pterobilling',
             },
-            {
-              label: 'Packagist',
-              href: 'https://packagist.org/packages/pterobilling/pterobilling',
-            },
           ],
         },
       ],
@@ -84,16 +90,12 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/pterobilling/docs/edit/master/docs/',
+          editUrl: 'https://github.com/pterobilling/docs/edit/master/',
         },
-        /*blog: {
+        blog: {
           showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/pterobilling/docs/edit/master/blog/',
-        },*/
+          editUrl: 'https://github.com/pterobilling/docs/edit/master/blog/',
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
