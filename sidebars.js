@@ -1,10 +1,9 @@
 module.exports = {
   docs: [
-    'intro',
+    'welcome',
     {
       'Getting Started': [
-        'start/intro',
-        //'start/require',
+        'start/require',
         //'start/install',
         //'start/config',
         //'start/mysql',
@@ -14,7 +13,7 @@ module.exports = {
     },
     {
       'Administration': [
-        'admin/intro',
+        'admin/admin-area',
       ]
     },
     {
