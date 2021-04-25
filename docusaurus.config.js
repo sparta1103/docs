@@ -15,7 +15,7 @@ module.exports = {
       },
       links: [
         {
-          to: 'docs/intro',
+          to: 'docs/welcome',
           activeBasePath: 'docs',
           label: 'Documentation',
           position: 'left',
@@ -46,11 +46,11 @@ module.exports = {
           items: [
             {
               label: 'Getting Started',
-              to: 'docs/start',
+              to: 'docs/start/require',
             },
             {
               label: 'Administration',
-              to: 'docs/admin',
+              to: 'docs/admin/admin-area',
             },
           ],
         },
@@ -71,12 +71,12 @@ module.exports = {
           title: 'More',
           items: [
             {
-              label: 'Demo',
-              href: '#',
-            },
-            {
               label: 'GitHub',
               href: 'https://github.com/pterobilling/pterobilling',
+            },
+            {
+              label: 'Demo',
+              href: '#',
             },
           ],
         },
