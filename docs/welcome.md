@@ -4,7 +4,7 @@ title: Welcome
 ---
 
 <div align="center">
-    <img src="https://raw.githubusercontent.com/pterobilling/pterobilling/master/.github/icon_blue.png" alt="PteroBilling" width="150px">
+    <img src="https://raw.githubusercontent.com/pterobilling/pterobilling/master/.github/icon_blue.png" alt="PteroBilling" width="150px" />
     <h1>Welcome to PteroBilling Documentation</h1>
     <h3>The documentation for guiding you on how to set up PteroBilling on your server</h3>
     <hr />
