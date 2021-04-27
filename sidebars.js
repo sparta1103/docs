@@ -4,13 +4,14 @@ module.exports = {
     {
       'Getting Started': [
         'start/require',
-        //'start/install',
-        //'start/config',
-        //'start/mysql',
-        //'start/web-server',
-        //'start/pterodactyl',
+        'start/install',
+        'start/config',
+        'start/mysql',
+        'start/webserver',
+        'start/pterodactyl',
       ]
     },
+    'faq',
     {
       'Administration': [
         'admin/admin-area',
