@@ -3,6 +3,12 @@ id: faq
 title: Frequently Asked Questions
 ---
 
+## Does PteroBilling support Pterodactyl v0.7 or below?
+No, Pterodactyl v0.7 has already been abandoned. Please update it to v1.4 or above as soon as possible.
+
+## Does PteroBilling support Pterodactyl v1.0 - v1.3?
+Yes, but we'll drop the support of the outdated versions soon. Please update it to v1.4 or above as soon as possible.
+
 ## Can I install PteroBilling and Pterodactyl panel on the same server?
 Yes, you can. In fact, it is much easier to install PteroBilling on the server which hosts/contains the Pterodactyl panel. Since they use the same dependencies, you don't need to take extra steps when installing them on the same server. Therefore, you can safely skip the steps on the [requirements page](start/require) and follow the rest of the [getting started section](start/install).
 

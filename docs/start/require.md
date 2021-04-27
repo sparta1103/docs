@@ -4,8 +4,8 @@ title: Requirements
 ---
 
 ## Required Dependencies
-- Pterodactyl panel **v1.2 or above** already installed on the same or different server
-- **PHP >= 7.3** and the following extensions: `BCMath`, `Ctype`, `Fileinfo`, `JSON`, `Mbstring`, `OpenSSL`, `PDO`, `MySQL`, `Tokenizer`, `XML`, `GD`, `cURL`, and `Zip` (`FPM` if using nginx)
+- Pterodactyl panel **v1.4 or above** already installed on the same or different server
+- **PHP >= 7.4** and the following extensions: `BCMath`, `Ctype`, `Fileinfo`, `JSON`, `Mbstring`, `OpenSSL`, `PDO`, `MySQL`, `Tokenizer`, `XML`, `GD`, `cURL`, and `Zip` (`FPM` if using nginx)
 - Composer 2
 - Web server (**nginx** is recommended)
 - MySQL >= 5.7 or **MariaDB >= 10.2** (MariaDB is recommended)
