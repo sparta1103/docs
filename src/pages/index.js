@@ -8,8 +8,8 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: <>Free &#38; Open Source</>,
-    imageUrl: 'img/wallet-solid.webp',
+    title: "Free &#38; Open Source",
+    imageUrl: "img/wallet-solid.webp",
     description: (
       <>
         PteroBilling is completely free and licensed under the MIT license. Our source code is available to public on Github.
@@ -17,8 +17,8 @@ const features = [
     ),
   },
   {
-    title: <>Automate Billing</>,
-    imageUrl: 'img/money-bill-wave-solid.webp',
+    title: "Automate Billing",
+    imageUrl: "img/money-bill-wave-solid.webp",
     description: (
       <>
         We collect payments, issue invoices, send email notifications, and create panel users and servers automatically.
@@ -26,8 +26,8 @@ const features = [
     ),
   },
   {
-    title: <>User &#38; Developer Friendly</>,
-    imageUrl: 'img/users-cog-solid.webp',
+    title: "User &#38; Developer Friendly",
+    imageUrl: "img/users-cog-solid.webp",
     description: (
       <>
         Our user interface is simple, beautiful, powerful, and extendable, with the support for making extensions and customization.
@@ -42,7 +42,7 @@ function Feature({imageUrl, title, description}) {
     <div className={classnames('col col--4', styles.feature)}>
       {imgUrl && (
         <div className="text--center">
-          <img className={styles.featureImage} src={imgUrl} alt={title} width='200px' height='200px' />
+          <img className={styles.featureImage} src={imgUrl} alt={title} />
         </div>
       )}
       <h3>{title}</h3>
