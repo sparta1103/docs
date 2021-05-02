@@ -3,6 +3,9 @@ id: faq
 title: Frequently Asked Questions
 ---
 
+## Am I allowed to remove or hide the 'Powered by PteroBilling' link at the footer?
+No, PteroBilling is licensed under the MIT license, which requires you to preserve the copyright and license notices. If you really want to remove the link, please consider donating to us.
+
 ## Does PteroBilling support Pterodactyl v0.7 or below?
 No, Pterodactyl v0.7 has already been abandoned. Please update it to v1.4 or above as soon as possible.
 

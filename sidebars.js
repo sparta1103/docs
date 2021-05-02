@@ -11,6 +11,11 @@ module.exports = {
         'start/pterodactyl',
       ]
     },
+    {
+      'Upgrading': [
+        'upgrade/dev'
+      ]
+    },
     'faq',
     {
       'Administration': [
