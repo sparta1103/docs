@@ -8,7 +8,7 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: "Free &#38; Open Source",
+    title: "Free & Open Source",
     imageUrl: "img/wallet-solid.webp",
     description: (
       <>
@@ -26,7 +26,7 @@ const features = [
     ),
   },
   {
-    title: "User &#38; Developer Friendly",
+    title: "User & Developer Friendly",
     imageUrl: "img/users-cog-solid.webp",
     description: (
       <>
