@@ -4,7 +4,7 @@ module.exports = {
   url: 'https://project.alaister.net',
   baseUrl: '/',
   favicon: 'img/favicon.webp',
-  organizationName: 'AlaisterLeung',
+  organizationName: 'pterobilling',
   projectName: 'docs',
   themeConfig: {
     navbar: {
@@ -84,6 +84,13 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Alaister Leung. All rights reserved.`,
     },
   },
+  scripts: [
+    {
+      src:
+        'https://arc.io/widget.min.js#pZbCgsXG',
+      async: true,
+    },
+  ],
   presets: [
     [
       '@docusaurus/preset-classic',
