@@ -36,7 +36,7 @@ title: Welcome
 - *Extendable: add more features by installing more extensions (see pre-installed extensions below)
 
 ### Pre-installed Extensions
-PayPal, Cloudflare Zone, Minecraft JAR
+PayPal, Cloudflare, Minecraft
 
 Please feel free to suggest more on [our Discord server](https://discord.gg/GQ5EWQz6MQ) (*Make sure to check the to-do list first*)
 
@@ -52,6 +52,17 @@ Have a Discord account? Join our [Discord server](https://discord.gg/GQ5EWQz6MQ)
 
 **PLEASE DON'T ASK FOR HELP ON THE ISSUES PAGE!** That's for bug reports and feature requests.
 
+## Contributors
+Github Username | Discord Tag | Details
+--- | --- | ---
+[MinePlay85](https://github.com/MinePlay85) | MinePlay85#0001 | [Installer Script](https://github.com/MinePlay85/PteroBilling-installer)
+-- | Djayden#0001 | [Demo Website](https://demo.pterobilling.net)
+
+### Donors
+Github Username | Discord Tag
+--- | ---
+-- | Lobo#3451
+[raflymln](https://github.com/raflymln) | RAFLYMLN#8225
+
 ## License
 PteroBilling and AdminLTE, the website theme it uses, are licensed under the MIT license. Please take a look at the `LICENSE` and `AdminLTE-LICENSE` files.
-
