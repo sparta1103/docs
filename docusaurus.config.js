@@ -22,7 +22,7 @@ module.exports = {
           position: 'left',
         },
         {
-          href: '#',
+          href: 'https://demo.pterobilling.net',
           label: 'Demo',
           position: 'left',
         },
@@ -77,7 +77,7 @@ module.exports = {
             },
             {
               label: 'Demo',
-              href: '#',
+              href: 'https://demo.pterobilling.net',
             },
           ],
         },
