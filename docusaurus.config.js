@@ -23,7 +23,7 @@ module.exports = {
         },
         {
           href: 'https://demo.pterobilling.net',
-          label: 'Demo',
+          label: 'Demo (Coming Soon)',
           position: 'left',
         },
         //{to: 'blog', label: 'Blog', position: 'left'},
@@ -76,7 +76,7 @@ module.exports = {
               href: 'https://github.com/pterobilling/pterobilling',
             },
             {
-              label: 'Demo',
+              label: 'Demo (Coming Soon)',
               href: 'https://demo.pterobilling.net',
             },
           ],
@@ -103,7 +103,7 @@ module.exports = {
       src:
         'https://static.cloudflareinsights.com/beacon.min.js',
       'data-cf-beacon':
-        '{"token": "b0f81bb74fec4802bc40ab1d59df2775"}',
+        '{\'token\': \'b0f81bb74fec4802bc40ab1d59df2775\'}',
       defer: true,
     },
   ],
