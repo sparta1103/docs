@@ -96,13 +96,13 @@ module.exports = {
       src:
         'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
       async: true,
-      data-ad-client:
+      'data-ad-client':
         'ca-pub-8826541345134443',
     },
     {
       src:
         'https://static.cloudflareinsights.com/beacon.min.js',
-      data-cf-beacon:
+      'data-cf-beacon':
         '{"token": "b0f81bb74fec4802bc40ab1d59df2775"}',
       defer: true,
     },
