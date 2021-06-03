@@ -92,6 +92,20 @@ module.exports = {
         'https://arc.io/widget.min.js#pZbCgsXG',
       async: true,
     },
+    {
+      src:
+        'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
+      async: true,
+      data-ad-client:
+        'ca-pub-8826541345134443',
+    },
+    {
+      src:
+        'https://static.cloudflareinsights.com/beacon.min.js',
+      data-cf-beacon:
+        '{"token": "b0f81bb74fec4802bc40ab1d59df2775"}',
+      defer: true,
+    },
   ],
   presets: [
     [
