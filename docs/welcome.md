@@ -10,7 +10,7 @@ title: Welcome
     <hr />
     <h4>PteroBilling is an open-source Laravel 8 online store, client area, and billing software specially made for Pterodactyl panel</h4>
     <img src="https://img.shields.io/github/v/release/pterobilling/pterobilling?sort=semver&color=green&label=stable&style=for-the-badge" alt="stable release badge" />&emsp;
-    <img src="https://img.shields.io/github/v/release/pterobilling/pterobilling?include_prereleases&sort=semver&label=latest&style=for-the-badge" lt="latest release badge)" />&emsp;
+    <img src="https://img.shields.io/github/v/release/pterobilling/pterobilling?include_prereleases&sort=semver&label=latest&style=for-the-badge" alt="latest release badge)" />&emsp;
     <img src="https://img.shields.io/github/stars/pterobilling/pterobilling?style=for-the-badge" alt="stars badge" />&emsp;
     <img src="https://img.shields.io/github/watchers/pterobilling/pterobilling?style=for-the-badge" alt="watchers badge" />&emsp;
     <img src="https://img.shields.io/packagist/dt/pterobilling/pterobilling?color=brightgreen&style=for-the-badge" alt="downloads badge" />
@@ -21,6 +21,8 @@ title: Welcome
     <h3>Announcement: An early access will be released soon!</h3>
     <h4>Note: Our documentation is still under development.</h4>
 </div>
+
+# THIS DOCS CONTAIN UPCOMING FEATURES!
 
 ## Features
 - Free and open-source
@@ -56,7 +58,8 @@ Have a Discord account? Join our [Discord server](https://discord.gg/GQ5EWQz6MQ)
 Github Username | Discord Tag | Details
 --- | --- | ---
 [MinePlay85](https://github.com/MinePlay85) | MinePlay85#0001 | [Installer Script](https://github.com/MinePlay85/PteroBilling-installer)
--- | Djayden#0001 | [Demo Website](https://demo.pterobilling.net)
+-- | Djayden#0001 | [Demo Website and Domain](https://demo.pterobilling.net)
+-- | ◱ j̶͗͘ù̷͝r̷̈́͆û̶̈#0001 | [Website](https://pterobilling.net)
 
 ### Donors
 Github Username | Discord Tag

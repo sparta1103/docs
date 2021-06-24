@@ -4,7 +4,7 @@ title: Installation
 ---
 
 ## Warning!
-**PteroBilling has not yet been released.** The Dev version contains known or unknown bugs. Install it now at your own risk. Please wait for the pre-release for a more stable version.
+**PteroBilling has not yet been released.** The Dev version contains known or unknown bugs. Install it now at your own risk. Please wait for a more stable version.
 
 ## Download Our Source Code
 First, go to the directory where the website files are stored, for example:
@@ -51,3 +51,4 @@ After that, you should [create an SSL certificate and set up your web server](we
 
 ## Log into Admin Area
 Finally, log into the admin area with the default account `admin@example.com` and the password is `password`. **Remember to change the default email address and password!**
+*An Artisan command will be available soon so that you can set up the default admin account more easily.*
