@@ -24,12 +24,12 @@ chown -R www-data:www-data /var/www/pterobilling
 
 ## Enable Maintenance Mode
 ```bash
+cd /var/www/pterobilling
 php artisan down
 ```
 
 ## Update Database Tables
 ```bash
-cd /var/www/pterobilling
 php artisan migrate --seed --force
 ```
 

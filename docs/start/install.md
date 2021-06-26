@@ -50,5 +50,9 @@ Copy and paste the following lines to the file.
 After that, you should [create an SSL certificate and set up your web server](web_server_config.md). You may also [make some changes to the .env file of Pterodactyl panel](pterodactyl_config.md) (optional).
 
 ## Log into Admin Area
-Finally, log into the admin area with the default account `admin@example.com` and the password is `password`. **Remember to change the default email address and password!**
-*An Artisan command will be available soon so that you can set up the default admin account more easily.*
+Finally, create an admin account by running the following artisan command. Since you haven't set your Pterodactyl API key, it can't find your panel account by your email. Therefore, you have to provide your panel user ID. **Make sure the email address and user ID matches with that of your panel account!**
+```shell
+php artisan p:make:client {email} {user_id} --admin
+```
+
+Now, log into the admin area and update the [important settings](../admin/admin_area.md).

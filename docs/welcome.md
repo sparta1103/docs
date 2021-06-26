@@ -58,8 +58,8 @@ Have a Discord account? Join our [Discord server](https://discord.gg/GQ5EWQz6MQ)
 Github Username | Discord Tag | Details
 --- | --- | ---
 [MinePlay85](https://github.com/MinePlay85) | MinePlay85#0001 | [Installer Script](https://github.com/MinePlay85/PteroBilling-installer)
--- | Djayden#0001 | [Demo Website and Domain](https://demo.pterobilling.net)
--- | ◱ j̶͗͘ù̷͝r̷̈́͆û̶̈#0001 | [Website](https://pterobilling.net)
+-- | ◱ j̶͗͘ù̷͝r̷̈́͆û̶̈#0001 | [Domain, Web Hosting, Website](https://pterobilling.org)
+-- | Djayden#0001 | [Domain](https://pterobilling.net)
 
 ### Donors
 Github Username | Discord Tag

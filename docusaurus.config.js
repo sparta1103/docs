@@ -1,7 +1,7 @@
 module.exports = {
   title: 'PteroBilling',
   tagline: 'An open-source Laravel 8 online store, client area, and billing software specially made for Pterodactyl panel',
-  url: 'https://project.alaister.net',
+  url: 'https://docs.pterobilling.org',
   baseUrl: '/',
   favicon: 'img/favicon.webp',
   organizationName: 'pterobilling',
@@ -22,7 +22,7 @@ module.exports = {
           position: 'left',
         },
         {
-          href: 'https://demo.pterobilling.net',
+          href: 'https://demo.pterobilling.org',
           label: 'Demo (Coming Soon)',
           position: 'left',
         },
@@ -77,7 +77,7 @@ module.exports = {
             },
             {
               label: 'Demo (Coming Soon)',
-              href: 'https://demo.pterobilling.net',
+              href: 'https://demo.pterobilling.org',
             },
           ],
         },
@@ -89,15 +89,8 @@ module.exports = {
   scripts: [
     {
       src:
-        'https://arc.io/widget.min.js#pZbCgsXG',
+        'https://arc.io/widget.min.js#qtir15bF',
       async: true,
-    },
-    {
-      src:
-        'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
-      async: true,
-      'data-ad-client':
-        'ca-pub-8826541345134443',
     },
     {
       src:
