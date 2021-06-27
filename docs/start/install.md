@@ -3,10 +3,12 @@ id: install
 title: Installation
 ---
 
-## Warning!
+## THIS DOCUMENTATION CONTAINs UPCOMING FEATURES!
+
+## WARNING!! Please read!
 **PteroBilling has not yet been released.** The Dev version contains known or unknown bugs. Install it now at your own risk. Please wait for a more stable version.
 
-## Download Our Source Code
+## Download Source Code
 First, go to the directory where the website files are stored, for example:
 ```shell
 cd /var/www
@@ -26,10 +28,20 @@ chown -R www-data:www-data /var/www/pterobilling
 ## Configure MySQL Database & SMTP Server
 Please make sure you have already [set up a MySQL database](mysql.md) and [edited the .env file](config.md) before continuing the installation.
 
-After editing the .env file, run the following commands.
-The first command will migrate all tables to the database. The others will cache the configurations and views to optimize the performance.
+After editing the .env file, migrate all tables to the database.
 ```shell
 php artisan migrate --seed --force
+```
+
+## Edit Settings (Optional)
+The settings can be changed later in the admin area.
+```shell
+php artisan p:update:settings
+```
+
+## Optimize Performance
+Cache the configurations and views to optimize the performance.
+```shell
 php artisan config:cache
 php artisan view:cache
 ```
@@ -50,7 +62,7 @@ Copy and paste the following lines to the file.
 After that, you should [create an SSL certificate and set up your web server](web_server_config.md). You may also [make some changes to the .env file of Pterodactyl panel](pterodactyl_config.md) (optional).
 
 ## Log into Admin Area
-Finally, create an admin account by running the following artisan command. Since you haven't set your Pterodactyl API key, it can't find your panel account by your email. Therefore, you have to provide your panel user ID. **Make sure the email address and user ID matches with that of your panel account!**
+Finally, create an admin account by running the following artisan command. **Make sure the email address and user ID matches with that of your Pterodactyl panel account!**
 ```shell
 php artisan p:make:client {email} {user_id} --admin
 ```

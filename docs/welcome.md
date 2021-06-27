@@ -22,8 +22,6 @@ title: Welcome
     <h4>Note: Our documentation is still under development.</h4>
 </div>
 
-# THIS DOCS CONTAIN UPCOMING FEATURES!
-
 ## Features
 - Free and open-source
 - A user-friendly client area and powerful admin area with a beautiful, customizable [AdminLTE theme made by ColorlibHQ](https://github.com/ColorlibHQ/AdminLTE)

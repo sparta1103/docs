@@ -6,11 +6,11 @@ title: Admin Area
 ## Log into Admin Area
 Go to `example.com/auth/login` and login with your admin account you have created during the installation. Then, click `Admin Area` from the dropdown at the upper right corner.
 
-## Edit Important Settings
-In the admin area, go to the Settings page and edit the followings. Other settings are optional and some of them can be left blank.
+## Edit Settings
+In the admin area, go to the Settings page. You may skip some of them if they were already updated during the installation.
 - **Company Name**
 - **Store URL**: you must include `https://` and do not add a `/` at the end
-- **Logo Path**: upload your own file to `/path/to/pterobilling/public/img/yourlogo.webp` first (.webp recommended)
+- **Logo Path**: upload your own file to `/path/to/pterobilling/public/img/yourlogo.webp` first (.webp file recommended by Google)
 - **Favicon Path**: same instruction as `Logo Path`
 - **Panel URL**: same instruction as `Store URL`
 - **Panel Client API Key**: your Pterodactyl panel admin account API key
