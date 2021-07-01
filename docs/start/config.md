@@ -10,7 +10,7 @@ cp .env.example .env
 ```
 
 ## Generate an APP_KEY (Optional)
-If you does not have an `app_key`, generate one now. **Remember to backup your new `app_key`!**
+If you don't have an `app_key`, generate one now. **Remember to backup your new `app_key`!**
 ```shell
 php artisan key:generate --force
 ```

@@ -46,25 +46,24 @@ php artisan config:cache
 php artisan view:cache
 ```
 
-## Set Up Cron Job & Queue Worker
-Then, let's set up a cron job and a queue worker. Run the following command to open the crontab configuration.
+## Set Up Cron Job
+Then, let's set up a cron job. Run the following command to open the crontab configuration.
 ```shell
 crontab -e
 ```
 
-Copy and paste the following lines to the file.
+Copy and paste the following line to the file.
 ```shell
 * * * * * php /var/www/pterobilling/artisan schedule:run >> /dev/null 2>&1
-* * * * * php /var/www/pterobilling/artisan queue:work --sansdaemon --tries=3 >> /dev/null 2>&1
 ```
 
 ## Configure Web Server
 After that, you should [create an SSL certificate and set up your web server](web_server_config.md). You may also [make some changes to the .env file of Pterodactyl panel](pterodactyl_config.md) (optional).
 
 ## Log into Admin Area
-Finally, create an admin account by running the following artisan command. **Make sure the email address and user ID matches with that of your Pterodactyl panel account!**
+Finally, create an admin account by running the following artisan command. **Make sure the email address matches with that of your Pterodactyl panel account!**
 ```shell
-php artisan p:make:client {email} {user_id} --admin
+php artisan p:make:client {email} --admin
 ```
 
 Now, log into the admin area and update the [important settings](../admin/admin_area.md).

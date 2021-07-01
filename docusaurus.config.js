@@ -16,6 +16,11 @@ module.exports = {
       },
       links: [
         {
+          href: 'https://pterobilling.org',
+          label: 'Website',
+          position: 'left',
+        },
+        {
           to: 'docs/welcome',
           activeBasePath: 'docs',
           label: 'Documentation',
@@ -23,7 +28,7 @@ module.exports = {
         },
         {
           href: 'https://demo.pterobilling.org',
-          label: 'Demo (Coming Soon)',
+          label: 'Demo',
           position: 'left',
         },
         //{to: 'blog', label: 'Blog', position: 'left'},
@@ -43,20 +48,20 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Documentation',
+          title: 'Useful Links',
           items: [
             {
-              label: 'Getting Started',
-              to: 'docs/start/require',
+              href: 'https://pterobilling.org',
+              label: 'Website',
             },
             {
-              label: 'Administration',
-              to: 'docs/admin/admin-area',
+              label: 'Documentation',
+              to: 'docs/welcome',
             },
           ],
         },
         {
-          title: 'Community',
+          title: 'Support',
           items: [
             {
               label: 'Discord',
@@ -76,7 +81,7 @@ module.exports = {
               href: 'https://github.com/pterobilling/pterobilling',
             },
             {
-              label: 'Demo (Coming Soon)',
+              label: 'Demo',
               href: 'https://demo.pterobilling.org',
             },
           ],
