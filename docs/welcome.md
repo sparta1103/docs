@@ -10,7 +10,7 @@ title: Welcome
     <hr />
     <h4>PteroBilling is an open-source Laravel 8 online store, client area, and billing software specially made for Pterodactyl panel</h4>
     <img src="https://img.shields.io/github/v/release/pterobilling/pterobilling?sort=semver&color=green&label=stable&style=for-the-badge" alt="stable release badge" />&emsp;
-    <img src="https://img.shields.io/github/v/release/pterobilling/pterobilling?include_prereleases&sort=semver&label=latest&style=for-the-badge" alt="latest release badge)" />&emsp;
+    <img src="https://img.shields.io/github/v/release/pterobilling/pterobilling?include_prereleases&sort=semver&label=latest&style=for-the-badge" alt="latest release badge" />&emsp;
     <img src="https://img.shields.io/github/stars/pterobilling/pterobilling?style=for-the-badge" alt="stars badge" />&emsp;
     <img src="https://img.shields.io/github/watchers/pterobilling/pterobilling?style=for-the-badge" alt="watchers badge" />&emsp;
     <img src="https://img.shields.io/packagist/dt/pterobilling/pterobilling?color=brightgreen&style=for-the-badge" alt="downloads badge" />
@@ -56,8 +56,8 @@ Have a Discord account? Join our [Discord server](https://discord.gg/GQ5EWQz6MQ)
 Github Username | Discord Tag | Details
 --- | --- | ---
 [MinePlay85](https://github.com/MinePlay85) | MinePlay85#0001 | [Installer Script](https://github.com/MinePlay85/PteroBilling-installer)
+[Bricklou](https://github.com/Bricklou) | Bricklou#8055 | PteroBilling Theme
 -- | ◱ j̶͗͘ù̷͝r̷̈́͆û̶̈#0001 | [Domain, Web Hosting, Website](https://pterobilling.org)
--- | Djayden#0001 | [Domain](https://pterobilling.net)
 
 ### Donors
 Github Username | Discord Tag
