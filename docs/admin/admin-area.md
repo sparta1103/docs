@@ -4,7 +4,7 @@ title: Admin Area
 ---
 
 ## Log into Admin Area
-Go to `example.com/auth/login` and login with your admin account you have created during the installation. Then, click `Admin Area` from the dropdown at the upper right corner.
+Go to `example.com/#login` and login with your admin account you have created during the installation. Then, click `Admin Area` from the dropdown at the upper right corner.
 
 ## Edit Settings
 In the admin area, go to the Settings page. You may skip some of them if they were already updated during the installation.
