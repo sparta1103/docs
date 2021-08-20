@@ -89,19 +89,16 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Alaister Leung. All rights reserved.`,
     },
-    gtag: { trackingID: 'G-1F81FF3R4S' },
+    gtag: { trackingID: 'G-D37Y7G2S6Q' },
   },
   scripts: [
     {
-      src:
-        'https://arc.io/widget.min.js#qtir15bF',
+      src: 'https://arc.io/widget.min.js#qtir15bF',
       async: true,
     },
     {
-      src:
-        'https://static.cloudflareinsights.com/beacon.min.js',
-      'data-cf-beacon':
-        '{\'token\': \'b0f81bb74fec4802bc40ab1d59df2775\'}',
+      src: 'https://static.cloudflareinsights.com/beacon.min.js',
+      'data-cf-beacon': '{\'token\': \'43934bd6f50a42f3bbc4b6a27ea97eec\'}',
       defer: true,
     },
   ],

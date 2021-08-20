@@ -25,6 +25,16 @@ module.exports = {
     {
       'Extensions': [
         'extensions/intro',
+        {
+          'Gateways': [
+            'extensions/gateways/paypal',
+          ]
+        },
+        {
+          'Subdomains': [
+            'extensions/subdomains/cloudflare',
+          ]
+        }
       ],
     },
     {
