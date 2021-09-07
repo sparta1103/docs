@@ -19,19 +19,7 @@ Under **Zone Resources**, add `Include - Specific zone - example.com`. You may a
 
 Click `Continue to summary`, and then click `Create Token`. Copy the API token.
 
-### Add DNS Records
-Go to the **DNS page** of the **zone of your node's FQDN**, NOT the zones you selected in the previous step! For example, if your node's FQDN is `node1.example.com`, go to the zone `example.com` and create a CNAME record:
-```
-Name: subdomain.node1
-Target: node1.@
-TTL: Auto
-Proxy status: DNS only (Gray Cloud)
-```
-
-**NOTE:** If you have multiple nodes, you should add CNAME records to all your node's FQDN.
-**NOTE:** If there is a warning message about exposing the IP, you may safely ignore it.
-
-PteroBilling will create SRV records (subdomain names) with that hostname.
+PteroBilling will use those selected domains to create SRV records (subdomain names) that are pointed to the nodes' FQDN. The DNS record of the FQDN must be unproxied (grey-clouded).
 
 ### Edit Settings
-Log into PteroBilling admin area and go to the Cloudflare settings page. (e.g. https://example.com/admin/extension/Cloudflare) Enter your **Cloudflare account email** and the **API key/token** you have just created. Click `Save Changes` and `Reload Config`.
+Log into PteroBilling admin area and go to the Cloudflare settings page. (e.g. https://example.com/admin/extension/Cloudflare) Enter the **API token** you have just created. Click `Save Changes` and `Reload Config`.
