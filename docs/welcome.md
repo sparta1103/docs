@@ -18,9 +18,15 @@ title: Welcome
     <img src="https://raw.githubusercontent.com/pterobilling/pterobilling/master/.github/preview_1_dark.png" alt="Preview" width="40%" />&emsp;
     <img src="https://raw.githubusercontent.com/pterobilling/pterobilling/master/.github/preview_1_light.png" alt="Preview" width="40%" />
     <br />
-    <h3>Announcement: An early access will be released soon!</h3>
     <h4>Note: Our documentation is still under development.</h4>
 </div>
+
+:::caution
+PteroBilling is **not** production ready. You can't install it for now.
+A demo website is available [here](https://demo.pterobilling.org/   ) if you want to have a small preview.
+
+A `rewrite` branch is currently in preparation to propose you a lot of improvments.
+:::
 
 ## Features
 - Free and open-source

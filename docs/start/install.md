@@ -3,10 +3,14 @@ id: install
 title: Installation
 ---
 
-## THIS DOCUMENTATION CONTAINs UPCOMING FEATURES!
+## THIS DOCUMENTATION CONTAINS UPCOMING FEATURES!
 
-## WARNING!! Please read!
+:::warning
+## Please read!
 **PteroBilling has not yet been released.** The Dev version contains known or unknown bugs. Install it now at your own risk. Please wait for a more stable version.
+
+All commands below are made for the `unstable` branch, don't ask for help if something goes wrong.
+:::
 
 ## Download Source Code
 First, go to the directory where the website files are stored, for example:

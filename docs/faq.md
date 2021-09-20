@@ -20,3 +20,6 @@ Yes, that is also possible. In most cases, they don't have any incompatibility. 
 
 ## Can I install PteroBilling on shared hosting?
 PteroBilling and Laravel 8 don't officially support shared hosting environment. However, you may succeed if your web hosting provider gives you SSH access (for running Composer and Artisan commands). If you don't have SSH access, there is a high chance you will fail.
+
+## When PteroBilling will be ready ?
+We doesn't know, we are working on it as much as we can to publish it as soon as possible. Any help for the development is the welcome.
