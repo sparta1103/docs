@@ -62,7 +62,7 @@ Copy and paste the following line to the file.
 ```
 
 ## Configure Web Server
-After that, you should [create an SSL certificate and set up your web server](web_server_config.md). You may also [make some changes to the .env file of Pterodactyl panel](pterodactyl_config.md) (optional).
+After that, you should [create an SSL certificate and set up your web server](webserver.md). You may also [make some changes to the .env file of Pterodactyl panel](pterodactyl.md) (optional).
 
 ## Log into Admin Area
 Finally, create an admin account by running the following artisan command. **Make sure the email address matches with that of your Pterodactyl panel account!**
@@ -70,4 +70,4 @@ Finally, create an admin account by running the following artisan command. **Mak
 php artisan p:make:client {email} --admin
 ```
 
-Now, log into the admin area and update the [important settings](../admin/admin_area.md).
+Now, log into the admin area and update the [important settings](../admin/admin-area.md).

@@ -7,7 +7,6 @@ module.exports = {
   favicon: "img/favicon.webp",
   organizationName: "pterobilling",
   projectName: "docs",
-  plugins: ["@docusaurus/plugin-google-gtag"],
   themeConfig: {
     navbar: {
       title: "PteroBilling",
@@ -90,7 +89,10 @@ module.exports = {
       ],
       copyright: `Copyright © ${new Date().getFullYear()} Alaister Leung. All rights reserved.`,
     },
-    gtag: { trackingID: "G-D37Y7G2S6Q" },
+    gtag: {
+      trackingID: "G-D37Y7G2S6Q",
+      anonymizeIP: true,
+    },
   },
   scripts: [
     {
