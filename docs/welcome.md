@@ -63,7 +63,7 @@ Github Username | Discord Tag | Details
 --- | --- | ---
 [MinePlay85](https://github.com/MinePlay85) | MinePlay85#0001 | [Installer Script](https://github.com/MinePlay85/PteroBilling-installer)
 [Bricklou](https://github.com/Bricklou) | Bricklou#8055 | PteroBilling Theme
--- | ◱ j̶͗͘ù̷͝r̷̈́͆û̶̈#0001 | [Domain, Web Hosting, Website](https://pterobilling.org)
+[one-juru](https://github.com/one-juru) | one-juru#0001 | [Domain, Web Hosting, Website](https://pterobilling.org)
 
 ### Donors
 Github Username | Discord Tag
