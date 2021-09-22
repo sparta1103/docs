@@ -9,7 +9,7 @@ Go to `example.com/#login` and login with your admin account you have created du
 ## Edit Settings
 In the admin area, go to the Settings page. You may skip some of them if they were already updated during the installation.
 - **Company Name**
-- **Store URL**: you must include `https://` and do not add a `/` at the end
+- **Store URL**: you must include `https://carnagehost.in` and do not add a `/` at the end
 - **Logo Path**: upload your own file to `/path/to/pterobilling/public/img/yourlogo.webp` first (.webp file recommended by Google)
 - **Favicon Path**: same instruction as `Logo Path`
 - **Panel URL**: same instruction as `Store URL`
